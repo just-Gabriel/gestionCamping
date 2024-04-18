@@ -15,12 +15,11 @@
     <body>
      {% include 'includes/navbar.html.twig' %}
      {# <img src="{{ asset('images/campin.jpg') }}" alt="Image"> #}
-
-     <style>
+      <style>
         body {
             margin: 0;
             padding: 0;
-            height: 200vh; 
+            height: 115vh; 
             background-image: url("{{ asset('images/campin.jpg') }}");
             background-size: cover; 
             background-position: center; 
@@ -30,11 +29,15 @@
 
     
 
+    
+
         
   
        
         
-            {% block body %}{% endblock %}
+            {% block body %}
+            
+            {% endblock %}
 
             
        
@@ -42,4 +45,8 @@
     </body>
 </html>
         
+            
+            
+            
+            
         
