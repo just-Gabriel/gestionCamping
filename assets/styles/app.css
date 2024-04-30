@@ -1,4 +1,7 @@
 .cadreTitre {
   display: flex;
   justify-content: center;
+  background-color: rgba(0, 255, 255, 0.211);
+  border-radius: 8px;
+  border: 2px solid black;
 }
